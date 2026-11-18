@@ -1,0 +1,12 @@
+To pull official project changes into this repo:
+
+git checkout master
+git fetch upstream
+git merge upstream/master
+git push origin master
+
+To update the AI branch:
+
+git checkout ai-singleplayer
+git merge master
+git push
